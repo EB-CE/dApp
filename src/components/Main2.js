@@ -67,54 +67,40 @@ class Main2 extends Component {
 
 
   render() {
-    
-
-    return (
-
-
-
-   
+       return (
       <div id="content">
-      
-        <p>&nbsp;</p>
+              <p>&nbsp;</p>
         <h5 className="center">All Entities</h5>
         <div className="list">
         <table className="table table-bordered" id="tbllist">
           <thead>
             <tr>
               <th scope="col">#</th>
-              
               <th scope="col">Identity</th>
               <th scope="col">Json Value</th>
               <th scope="col">Public Key</th>
-              
-            </tr>
+                  </tr>
           </thead>
           <tbody id="productList">
             { this.props.datas.map((data, key) => {
               return(
                 <tr key={key}>
                   <th scope="row">{data.id.toString()}</th>
-                  
-                  <td>{data.identity.toString()}</td>
+                   <td>{data.identity.toString()}</td>
                   <td>{data.jsonvalue}</td>
                   <td>{data.publickey}</td>
-                   
-                </tr>
+                  </tr>
               )
             })}
           </tbody>
         </table>
         </div>
-
        <div class="footer">
       <img src={mylogo} alt="" width="200" height="61"/>
       <img src={uulogo} alt="" width="200" height="104"/>
      </div>
       </div>
-
-     
-    );
+       );
   }
 }
 

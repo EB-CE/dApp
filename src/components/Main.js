@@ -15,8 +15,7 @@ class Main extends Component {
           const identity = this.identity.value
           this.props.createData(jsonvalue, identity)
         }}>
-          
-          <div className="form-group form">
+            <div className="form-group form">
             <input
               id="identity"
               type="text"
@@ -25,7 +24,6 @@ class Main extends Component {
               placeholder="Identity"
               required />
           </div>
-
           <div className="form-group form">
             <textarea 
               id="jsonvalue"

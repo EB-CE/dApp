@@ -86,8 +86,7 @@ class App extends Component {
                 ? <div id="loader" className="text-center"><p className="text-center">Loading...</p></div>
                 : <Main
                   datas={this.state.datas}
-                 
-                   />
+                  />
               }
             </main>
           </div>

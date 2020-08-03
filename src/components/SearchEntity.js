@@ -68,86 +68,33 @@ class SearchEntity extends Component {
 
 
   search(txtSearch)
-{
-  
-  
-
+{  
    var title = this.title.value;
-
-
-
     var a=this.props.datas.map((data, key) => {
-
-
-
     if (title===data.identity.toString()) {
-
            document.getElementById("txtResult").innerHTML= data.jsonvalue;
-          
-        }
-             
-           
+                 }                     
             })
-
-
-  
-
-   // for (var i = 1; i<=dataset.length ; i++) {
-
-   //  alert(dataset.identity);
-
-   
-   //      if (key==dataset.identity) {
-
-   //         document.getElementById("txtResult").innerHTML= dataset.jsonvalue;
-   //         break;
-
-   //      }
-
-  
-   // }
-
-
-
-
-  
-}
+ }
 
 
   render() {
-    
-
-    return (
-
-
-
-   
-      <div id="content">
-
-      <div className="form searchBox">
-      
-
+        return (
+        <div id="content">
+      <div className="form searchBox">      
       <input type="text" placeholder="Search identity.... " className="form-control" id="txtSearch" ref={input => this.title = input}/>
-
        <button className="btn btn-info form btnSearch" onClick={()=>this.search(this.props.datas)}>
       Search
     </button>
-
       <p>json file:</p>
      <p id="txtResult" className="resualt">No Data...</p>
-
      </div>
-
      <div class="footer fixed">
       <img src={mylogo} alt="" width="200" height="61"/>
       <img src={uulogo} alt="" width="200" height="104"/>
      </div>
-
-       
-      </div>
-
-     
-    );
+            </div>
+        );
   }
 }
 

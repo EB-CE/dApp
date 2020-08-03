@@ -118,36 +118,23 @@ class App extends Component {
 
 
   render() {
-
     return (
       <div>
         <Navbar account={this.state.account} />
         <div className="container-fluid mt-5">
           <div className="row">
-
-
           <div className="form searchBox">
-      
-
-      <input type="text" placeholder="Search identity.... " className="form-control" id="txtSearch" ref={input => this.title = input}/>
-
+            <input type="text" placeholder="Search identity.... " className="form-control" id="txtSearch" ref={input => this.title = input}/>
        <button className="btn btn-info form btnSearch" onClick={()=>this.search()}>
       Search
     </button>
-
-  
-
-     </div>
-
-
-
+      </div>
             <main role="main" className="col-lg-12 d-flex">
               { this.state.loading
                 ? <div id="loader" className="text-center"></div>
                 : <Main
                   datas={this.state.datas}
-                 
-                   />
+                                    />
               }
             </main>
           </div>
