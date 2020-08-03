@@ -106,7 +106,7 @@ class App extends Component {
             </div>
 
 
-           <div class="footer">
+           <div className="footer">
       <img src={mylogo} alt="" width="200" height="61"/>
       <img src={uulogo} alt="" width="200" height="104"/>
      </div>
