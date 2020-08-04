@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/LedgerPrototypedApp/static/css/main.8fa8a52d.chunk.css",
-    "main.js": "/LedgerPrototypedApp/static/js/main.c3eb5ba3.chunk.js",
-    "main.js.map": "/LedgerPrototypedApp/static/js/main.c3eb5ba3.chunk.js.map",
+    "main.js": "/LedgerPrototypedApp/static/js/main.18d318bf.chunk.js",
+    "main.js.map": "/LedgerPrototypedApp/static/js/main.18d318bf.chunk.js.map",
     "runtime-main.js": "/LedgerPrototypedApp/static/js/runtime-main.62fb5144.js",
     "runtime-main.js.map": "/LedgerPrototypedApp/static/js/runtime-main.62fb5144.js.map",
     "static/css/2.85f22f3a.chunk.css": "/LedgerPrototypedApp/static/css/2.85f22f3a.chunk.css",
-    "static/js/2.b3030b5f.chunk.js": "/LedgerPrototypedApp/static/js/2.b3030b5f.chunk.js",
-    "static/js/2.b3030b5f.chunk.js.map": "/LedgerPrototypedApp/static/js/2.b3030b5f.chunk.js.map",
+    "static/js/2.ec2b747e.chunk.js": "/LedgerPrototypedApp/static/js/2.ec2b747e.chunk.js",
+    "static/js/2.ec2b747e.chunk.js.map": "/LedgerPrototypedApp/static/js/2.ec2b747e.chunk.js.map",
     "index.html": "/LedgerPrototypedApp/index.html",
-    "precache-manifest.ab52ef317025d6f1f29effaa393d2d9f.js": "/LedgerPrototypedApp/precache-manifest.ab52ef317025d6f1f29effaa393d2d9f.js",
+    "precache-manifest.6a96b8c8ba18a14ae6c0c582988184d0.js": "/LedgerPrototypedApp/precache-manifest.6a96b8c8ba18a14ae6c0c582988184d0.js",
     "service-worker.js": "/LedgerPrototypedApp/service-worker.js",
     "static/css/2.85f22f3a.chunk.css.map": "/LedgerPrototypedApp/static/css/2.85f22f3a.chunk.css.map",
     "static/css/main.8fa8a52d.chunk.css.map": "/LedgerPrototypedApp/static/css/main.8fa8a52d.chunk.css.map",
-    "static/js/2.b3030b5f.chunk.js.LICENSE.txt": "/LedgerPrototypedApp/static/js/2.b3030b5f.chunk.js.LICENSE.txt",
+    "static/js/2.ec2b747e.chunk.js.LICENSE.txt": "/LedgerPrototypedApp/static/js/2.ec2b747e.chunk.js.LICENSE.txt",
     "static/media/bg2.png": "/LedgerPrototypedApp/static/media/bg2.0b1490dd.png",
     "static/media/mylogo.jpg": "/LedgerPrototypedApp/static/media/mylogo.b0d6fa00.jpg",
     "static/media/uulogo.png": "/LedgerPrototypedApp/static/media/uulogo.0f04b257.png"
@@ -21,8 +21,8 @@
   "entrypoints": [
     "static/js/runtime-main.62fb5144.js",
     "static/css/2.85f22f3a.chunk.css",
-    "static/js/2.b3030b5f.chunk.js",
+    "static/js/2.ec2b747e.chunk.js",
     "static/css/main.8fa8a52d.chunk.css",
-    "static/js/main.c3eb5ba3.chunk.js"
+    "static/js/main.18d318bf.chunk.js"
   ]
 }
